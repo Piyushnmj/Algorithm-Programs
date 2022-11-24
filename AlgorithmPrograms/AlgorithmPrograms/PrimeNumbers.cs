@@ -14,9 +14,9 @@ namespace AlgorithmPrograms
         {
             int count = 0;
             int ctr;
-            Console.WriteLine("Enter initial value: ");
+            Console.Write("\nEnter initial value: ");
             int initialNum = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter end value: ");
+            Console.Write("Enter end value: ");
             int endNum = Convert.ToInt32(Console.ReadLine());
 
             for (int i = initialNum; i <= endNum; i++)
@@ -36,7 +36,7 @@ namespace AlgorithmPrograms
                     count++;
                 }
             }
-            Console.WriteLine($"Total Prime Numbers are {count}");
+            Console.WriteLine($"\nTotal Prime Numbers are {count}");
         }
     }
 }
