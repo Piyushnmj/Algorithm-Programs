@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Algorithm Programs");
-            AnagramProgram obj = new AnagramProgram();
-            obj.AnagramDetectionProgram();
+            PrimeNumbers obj = new PrimeNumbers();
+            obj.PrimeNumber();
             Console.ReadLine();
         }
     }
